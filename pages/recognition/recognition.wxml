@@ -3,4 +3,6 @@
   <view class="btn-area">
       <button type="primary" bindtap="takePhoto">{{msg}}</button>
   </view>
+  <canvas style="width: {{width}}px; height: {{height}}px; opacity: 0" canvas-id="firstCanvas"></canvas>
 </view>
+
